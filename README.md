@@ -65,7 +65,7 @@ The required current for the given power values to operate mosfet in satuturatio
 A sinusoidal input signal of 0.9V peak-to-peak is applied to the gate, and the output voltage is observed at the drain
 
 
-#### Results
+### Results
 An interveting output curve was obtained when Vin and Vout was plotted against voltage and time with 1ms cycle.
 here we can observe a rough 180 degree phase shift between input and output.
 
