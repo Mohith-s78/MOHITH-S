@@ -154,7 +154,7 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 ![Image]()
 ### AC Analysis:
 
-![Image](ac.png)
+![Image](https://github.com/Mohith-s78/MOHITH-S/blob/9b04796e1ba9cb7b424affb2f5042618c9bd19e0/ac.png)
 ## Gain:
 
 *Av = -gm Rd*
