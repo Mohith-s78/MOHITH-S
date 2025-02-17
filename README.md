@@ -154,7 +154,7 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 ![Image]()
 ### AC Analysis:
 
-![Image]()
+![Image](ac.png)
 ## Gain:
 
 *Av = -gm Rd*
