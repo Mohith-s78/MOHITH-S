@@ -145,7 +145,7 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
   - *Q-Point:* (1,79981V, 27.7uA)
 
 
-![Image]()
+![Image](https://github.com/Mohith-s78/MOHITH-S/blob/a910867dd51fd6397e6686c2f791dbcd98b0ffcb/dc.png)
 ### Transient Analysis:
 - The output shows a *180-degree phase shift* between input and output.
 - *Vout = * 
