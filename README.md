@@ -112,9 +112,9 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 
 ## Circuit diagram:
 
-![Image](  )
+![Image](https://github.com/Mohith-s78/MOHITH-S/blob/97556605043c0d76ca1d2dcad4951e017be9cfa5/circuit%20diagram.png)
 ### Procedure:
-1. Set the PMOS transistor (CMOSP) with a length of *302nm* and width of *360μm*.
+1. Set the PMOS transistor (CMOSP) with a length of ** and width of **.
 
 2. *DC Analysis:*
    - Apply *Vdd = 1.8V* , *Vin = 0.9V* 
