@@ -1,6 +1,6 @@
-# Linear Integrated Circuits (LIC)
-#Experiment 1
+ Linear Integrated Circuits (LIC)
 
+#EXPERIMENT 1
 ## Aim 
 Analysis of CS amplifier
 
