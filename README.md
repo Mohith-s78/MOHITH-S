@@ -37,41 +37,46 @@ A MOSFET in saturation and acts as a *constant current source*, making it useful
 
 #### Circuit diagram overview
 ![image alt](https://github.com/Mohith-s78/MOHITH-S/blob/2f2a3fc399b1af64bfbd4d79736028fb80e57308/Circuit%20Diagram.png)
+## Procedure:
 
-1. **Transistor Setup**:
-- **M1** (NMOS) as the main amplifying transistor.
-- Gate of **M1** is connected to the input node **Vin**.
-- Source of **M1** connected to the ground.
-- Drain of **M1** connected to the resistor.
+1. *Create a New Project*
 
-2. **Biasing**:
-- **Vin** provides the input signal.
+2. *Set Up the values for MOSFET*
+   - Configure the *NMOS transistor (CMOSN)* with:
+     - Length: *500nm*
+     - Width: *487nm*
+3. *Perform DC Analysis*
+   - Connect all circuit components properly.
+   - Apply:
+     - *Vdd = 1.8V*
+     - *Vin = 0.9V*
+   - Run *DC analysis* to obtain:
+     - *Vout*
+     - *Id*
 
-3. **Load resistor**:
-- one terminal of resistor is connected to the drain of M1 and the other to Vdd.
-
+4. *Run Transient Analysis*
+   - Apply a *sine wave input*:
+     - *Vin = 0.9V*
+     - *Amplitude = 50mV*
+     - *Frequency = 1kHz*
+   - Run *transient analysis*
+   - 
+5. *Run AC Analysis*
+   - Include all required library files.
+   - Run *AC analysis* with:
+     -Start and end frequency: *0.1Hz to 1THz*
+## Results:
 ## DC analysis
 The required current for the given power values to operate mosfet in satuturation region is 27.772 micro ampers, since only w and l can be varied to get the desired current so their values are 
 
 - **W**=487nm
-
 - **L**=500nm
-
-#### Results
-
 - **Vdd**=1.8V
-
-
 - **Vin**=0.9V
-
-
 - **Vout**=1.77223V
-
-
 - **Id(M1)**=27.772uA
 
-
-- **Ig(M1)**=0A
+![image alt]()
 
 
 
