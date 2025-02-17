@@ -73,17 +73,15 @@ The required current for the given power values to operate mosfet in satuturatio
 - **L**=500nm
 - **Vdd**=1.8V
 - **Vin**=0.9V
-- **Vout**=1.77223V
 - **Id(M1)**=27.772uA
 
-![image alt]()
-
-
-
+![image alt](https://github.com/Mohith-s78/MOHITH-S/blob/ab67f8b84c687072d5748d947145072219a16f87/Dc%20Analysis.png)
 
 
 ## Transient analysis
-A sinusoidal input signal of 0.9V peak-to-peak is applied to the gate, and the output voltage is observed at the drain
+A sinusoidal input signal of 0.9V peak-to-peak is applied to the gate, and the output voltage is observed at the drain and it has a *180-degree phase shift* between input and output
+- **Vout**=1.77223
+![image alt]()
 
 
 ### Results
