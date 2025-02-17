@@ -81,17 +81,15 @@ The required current for the given power values to operate mosfet in satuturatio
 ## Transient analysis
 A sinusoidal input signal of 0.9V peak-to-peak is applied to the gate, and the output voltage is observed at the drain and it has a *180-degree phase shift* between input and output
 - **Vout**=1.77223
-![image alt]()
-
-
-### Results
-An interveting output curve was obtained when Vin and Vout was plotted against voltage and time with 1ms cycle.
-here we can observe a rough 180 degree phase shift between input and output.
-
+![image alt](https://github.com/Mohith-s78/MOHITH-S/blob/a27d96bba20e0d23a11383e1f1044f3973621526/Trancient.png)
 
 
 ## AC analysis
 This AC analysis evaluates the frequency response of a common-source NMOS amplifier. The gain is plotted over a wide frequency range to observe how the circuit amplifies signals at different frequencies and determine its bandwidth limitations.
+![image alt]()
+
+
+
 
 #### Results
 
