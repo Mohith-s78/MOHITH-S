@@ -94,7 +94,7 @@ This AC analysis evaluates the frequency response of a common-source NMOS amplif
 *gm = 1/lamda*Id*
 Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 
-![Image]((https://github.com/Mohith-s78/MOHITH-S/blob/9fee2a95b4ba9d08aee72f0f80f91ec28d9b6944/Gain.png))
+![Image](https://github.com/Mohith-s78/MOHITH-S/blob/9fee2a95b4ba9d08aee72f0f80f91ec28d9b6944/Gain.png)
 
 ## Inference:
 1. The MOSFET's *current (Id) is directly proportional to its width*, affecting overall circuit performance.
