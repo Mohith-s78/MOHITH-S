@@ -86,21 +86,25 @@ A sinusoidal input signal of 0.9V peak-to-peak is applied to the gate, and the o
 
 ## AC analysis
 This AC analysis evaluates the frequency response of a common-source NMOS amplifier. The gain is plotted over a wide frequency range to observe how the circuit amplifies signals at different frequencies and determine its bandwidth limitations.
-![image alt]()
+![image alt](https://github.com/Mohith-s78/MOHITH-S/blob/2937182c543bfc28fc1e5f92ceceaba824800906/Ac%20Analysis.png)
+
+## Gain:
+
+*Av = -gm Rd*
+*gm = 1/lamda*Id*
+Practical result: *Gain =    dB* at 1KHz frequency.
+
+![Image](  )
+
+## Inference:
+1. The MOSFET's *current (Id) is directly proportional to its width*, affecting overall circuit performance.
+2. Operating in saturation region.
+3. Transient analysis helps in evaluating the circuit’s response to time-varying signals, crucial for high-speed applications.
+4. AC analysis aids in designing amplifiers with desired gain and understanding frequency behavior.
+5. The overall analysis ensures proper design, optimization, and stability of the amplifier circuit.
 
 
 
 
-#### Results
-
-The gain remains stable at lower frequencies.
-
-The amplifier’s bandwidth and highlights its frequency-dependent performance.
 
 
-
-### Experiment 2
-
-### CS amplifier analyisis with PMOS replced by resistor
-
-#### Components
