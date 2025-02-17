@@ -36,6 +36,7 @@ A MOSFET in saturation and acts as a *constant current source*, making it useful
 
 
 #### Circuit diagram overview
+![image alt](https://github.com/Mohith-s78/MOHITH-S/blob/2f2a3fc399b1af64bfbd4d79736028fb80e57308/Circuit%20Diagram.png)
 
 1. **Transistor Setup**:
 - **M1** (NMOS) as the main amplifying transistor.
