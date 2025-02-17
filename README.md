@@ -2,16 +2,29 @@
 
 # Experiment-1
 ## Aim 
-Analysis of CS amplifier
+To obtain the DC analysis ,AC analysis , Trancient analysis of a Common Source(CS)amplifier and also obtain gain and other parameters using LT Spice.
 
-Specifications: 180 nm, tsmc, VDD = 1.8 V, Power budget = 50 uW
+## Theory
+A MOSFET is a type of transistor used for amplifying or switching electronic signals. It is widely used in digital and analog circuits due to its high efficiency and fast switching speed.
 
-Analysis: DC analysis, Transient analysis, AC analysis
+In saturation mode, an NMOS transistor operates under the conditions:
+- *Vgs > Vth* (Gate-to-Source Voltage greater than Threshold Voltage)
+- *Vds ≥ Vov* (Drain-to-Source Voltage greater than Overdrive Voltage)
+
+The current equation in saturation mode is given by
+*Id = (1/2) kn Vov²*, where:
+- *Vov = Vgs - Vth*
+
+The voltage gain is given by:
+*Av = -gm Rd*or*Av = Vout/Vin*
+
+A MOSFET in saturation and acts as a *constant current source*, making it useful for amplifier circuits.
+
+- *Drain current equation:*
+  *Id = (1/2) kn Vov², where **Vov = Vgs - Vth*.
+- The amplifier gain follows *Av = -gm Rd*.
 
 
-## Approch
-
-### Experiment 1
 
 ### CS amplifier analysis with resistive load
 
@@ -23,6 +36,7 @@ Analysis: DC analysis, Transient analysis, AC analysis
 
 
 #### Circuit diagram overview
+
 1. **Transistor Setup**:
 - **M1** (NMOS) as the main amplifying transistor.
 - Gate of **M1** is connected to the input node **Vin**.
