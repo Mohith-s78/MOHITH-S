@@ -81,7 +81,7 @@ The required current for the given power values to operate mosfet in satuturatio
 ## Transient analysis
 A sinusoidal input signal of 0.9V peak-to-peak is applied to the gate, and the output voltage is observed at the drain and it has a *180-degree phase shift* between input and output
 - **Vout**=1.77223
-![image alt](https://github.com/Mohith-s78/MOHITH-S/blob/a27d96bba20e0d23a11383e1f1044f3973621526/Trancient.png)
+![image alt](https://github.com/Mohith-s78/MOHITH-S/blob/8113823477753ba0baf632b34b50bc3020587a45/Trancient.png)
 
 
 ## AC analysis
