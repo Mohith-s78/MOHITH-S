@@ -103,6 +103,76 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 4. AC analysis aids in designing amplifiers with desired gain and understanding frequency behavior.
 5. The overall analysis ensures proper design, optimization, and stability of the amplifier circuit.
 
+## CS Amplifier with Diode-Connected MOSFET
+
+## Components Required:
+- NMOS (nmos4) and PMOS(pmos4)
+- Voltage sources ()
+- Bias DC source ()
+
+## Circuit diagram:
+
+![Image](  )
+### Procedure:
+1. Set the PMOS transistor (CMOSP) with a length of *302nm* and width of *360μm*.
+
+2. *DC Analysis:*
+   - Apply *Vdd = 1.8V* , *Vin = 0.9V* 
+   - As the MOSFET should be in saturation region,
+     Here Vb is connected to gate , so for us both the mosfet should be in saturation so for that Vgs>Vt 
+    |Vg-Vs|>|Vt|
+    here Vg is unknown so I calculated Vg ie Vg =Vb
+    Vb=-2V
+   - Run DC analysis to determine *Vout* and *Id*.
+
+3. *Transient Analysis:*
+   - Apply a sine wave input and observe the response.
+
+4. *AC Analysis:*
+   - Run AC analysis to measure gain and frequency response.
+## Results:
+
+
+### DC Analysis:
+- *DC Operating Point:*
+  - *Id1 =*
+  - *Id2 =*
+  - *Vout =*
+  - *Width = * (NMOS)
+  - *length =* (NMOS)
+  -  *Width =* (PMOS)
+  - *length =* (PMOS)
+  - *Q-Point:* (1,79981V, 27.7uA)
+
+
+![Image]()
+### Transient Analysis:
+- The output shows a *180-degree phase shift* between input and output.
+- *Vout = * 
+
+
+![Image]()
+### AC Analysis:
+
+![Image]()
+## Gain:
+
+*Av = -gm Rd*
+*gm = 1/lamda*Id*
+
+Practical result: *Gain = * at 1KHz frequency.
+
+![Image]()
+## Inference
+
+1. The MOSFET's **drain current (Id) is directly proportional to its width (W)**, influencing circuit performance and power consumption.  
+2. The MOSFET operates in the **saturation region** for amplification, ensuring a stable output.  
+3. **Transient analysis** evaluates the circuit’s response to time-varying signals, which is crucial for high-speed applications and switching performance.  
+4. **AC analysis** helps in designing amplifiers by determining gain, bandwidth, and frequency response.  
+5. A comprehensive analysis ensures **optimal design, performance, and stability** of the amplifier circuit.
+
+
+
 
 
 
