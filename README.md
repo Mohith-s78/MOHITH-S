@@ -138,11 +138,11 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
   - *Id1 =*
   - *Id2 =*
   - *Vout =*
-  - *Width = * (NMOS)
-  - *length =* (NMOS)
-  -  *Width =* (PMOS)
-  - *length =* (PMOS)
-  - *Q-Point:* (1,79981V, 27.7uA)
+  - *Width =487n* (NMOS)
+  - *length =500n* (NMOS)
+  -  *Width =309n* (PMOS)
+  - *length =360u* (PMOS)
+  - *Q-Point:* (1.79981V, 27.7uA)
 
 
 ![Image](https://github.com/Mohith-s78/MOHITH-S/blob/4bc48da2c826818e31e3d4cf82be5d881efa9e3b/dc.png)
