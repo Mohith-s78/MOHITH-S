@@ -135,9 +135,9 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 
 ### DC Analysis:
 - *DC Operating Point:*
-  - *Id1 =*
-  - *Id2 =*
-  - *Vout =*
+  - *Id1 =27.755u*
+  - *Id2 =27.755u*
+  - *Vout =1.79981*
   - *Width =487n* (NMOS)
   - *length =500n* (NMOS)
   -  *Width =309n* (PMOS)
