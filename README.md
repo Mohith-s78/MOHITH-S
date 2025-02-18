@@ -162,7 +162,7 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 
 Practical result: *Gain = * at 1KHz frequency.
 
-![Image]()
+![Image](https://github.com/Mohith-s78/MOHITH-S/blob/05f0bdbcd9914aa89dfb58836aaf455238c2c925/gain.png)
 ## Inference
 
 1. The MOSFET's **drain current (Id) is directly proportional to its width (W)**, influencing circuit performance and power consumption.  
