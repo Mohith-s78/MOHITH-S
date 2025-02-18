@@ -160,7 +160,7 @@ Practical result: *Gain =30.54064471dB* at 1KHz frequency.
 *Av = -gm Rd*
 *gm = 1/lamda*Id*
 
-Practical result: *Gain = * at 1KHz frequency.
+Practical result: *Gain =36.72* at 1KHz frequency.
 
 ![Image](https://github.com/Mohith-s78/MOHITH-S/blob/05f0bdbcd9914aa89dfb58836aaf455238c2c925/gain.png)
 ## Inference
