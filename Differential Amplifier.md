@@ -39,6 +39,8 @@ Using these  data we can design the circuit for the given power rating
 ### DC analysis
 <img width="959" alt="dc" src="https://github.com/user-attachments/assets/2fc4281b-b9e5-4a21-9f1a-a993ad5f5157" />
 Operating point of NMOSFETS = (1.1 V, 0.611mA)
+
+
 ### Transient Analysis:
 
 <img width="955" alt="trancient" src="https://github.com/user-attachments/assets/0372f31a-c5ed-43f6-9469-e181adf5e219" />
@@ -49,7 +51,9 @@ Av=VO/VI=0.145/0.1=1.45
 Higher The resistor value reduces gain but increases bandwidth and more the  transient response.
 
 ## AC Analysis
+
 <img width="956" alt="ac" src="https://github.com/user-attachments/assets/797de86f-f8c0-4ade-b66b-4481fc94ba7a" />
+
 
 Av=1.203 
 Gain =20*log(Av)
@@ -57,16 +61,22 @@ Gain =20*log(Av)
     =1.605
 
 ### 2)Circuit 2 (Common Source terminal is connected to current source)
+
 Same  as the ciruit in the resistor circuit we need to replace resistor by current source
+
 <img width="706" alt="image" src="https://github.com/user-attachments/assets/b33e5ab7-68c4-4ef6-af0e-bc95e50b56c3" />
 
 ### DC Analysis
 <img width="956" alt="dc_cs" src="https://github.com/user-attachments/assets/34f9fe42-306b-42fd-ade6-5687c2ff94c6" />
 
+
+Operating point of NMOSFETS = (1.1 V, 0.611mA)
+
 ### Transient Analysis:
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/afee2c0d-89d5-41a6-8505-281c364db5c5" />
 
- Voltage gain= vout/vin
+ Voltage gain= vout/vin=884.7/112=7.899
+Gain in dB=20*log(7.899)=17.95
 
 ### AC Analysis
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/89cb009a-18f1-4bb7-aa78-65b41f9be4e4" />
