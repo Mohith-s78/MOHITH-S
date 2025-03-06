@@ -61,24 +61,33 @@ Gain =20*log(Av)
 ### 2)Circuit 2 (Common Source terminal is connected to current source)
 Same  as the ciruit in the resistor circuit we need to replace resistor by current source
 ### DC Analysis
+<img width="956" alt="dc_cs" src="https://github.com/user-attachments/assets/34f9fe42-306b-42fd-ade6-5687c2ff94c6" />
 
 ### Transient Analysis:
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/afee2c0d-89d5-41a6-8505-281c364db5c5" />
 
  Voltage gain= vout/vin
 
 ### AC Analysis
+<img width="957" alt="image" src="https://github.com/user-attachments/assets/89cb009a-18f1-4bb7-aa78-65b41f9be4e4" />
 
 
 
 ### 3)Circuit 3 (Connecting MOSFET to source terminal)
+<img width="728" alt="image" src="https://github.com/user-attachments/assets/dbaea011-b483-4284-bc3d-ad1f0862b696" />
 
 
 ### DC Analysis
+<img width="948" alt="image" src="https://github.com/user-attachments/assets/4adecadc-377b-4870-b55b-d49f905708d7" />
 
 
 ### Transient Anlysis:
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/c9c9ebcc-9a57-4311-881d-dea9d4979ef8" />
+
 
 ### AC Analysis:
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/a3a248ea-bdc2-4670-b8f0-25a3733b0184" />
+
 
 
 ## INFERENCE:
