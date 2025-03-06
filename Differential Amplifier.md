@@ -81,7 +81,9 @@ Gain in dB=20*log(7.899)=17.95
 ### AC Analysis
 <img width="957" alt="image" src="https://github.com/user-attachments/assets/89cb009a-18f1-4bb7-aa78-65b41f9be4e4" />
 
+Av=2.877
 
+Gain=20log(Av)=9.178
 
 ### 3)Circuit 3 (Connecting MOSFET to source terminal)
 <img width="728" alt="image" src="https://github.com/user-attachments/assets/dbaea011-b483-4284-bc3d-ad1f0862b696" />
