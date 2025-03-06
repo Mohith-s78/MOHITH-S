@@ -44,7 +44,7 @@ the lineraity.So the linearity increases and the impedence.
 As this is closed loop amplifier this leads to causes a feedbakback amplifier for all elements connecting to the common 
 source terminal.
 ### DC analysis
-
+!image[https://github.com/Mohith-s78/MOHITH-S/blob/876399246fc74733d9204989ec4fbdc2c758750d/dc.png]
 
 ### Transient Analysis:
 
