@@ -89,25 +89,34 @@ Gain=20log(Av)=9.178
 <img width="728" alt="image" src="https://github.com/user-attachments/assets/dbaea011-b483-4284-bc3d-ad1f0862b696" />
 
 
+
 ### DC Analysis
 <img width="948" alt="image" src="https://github.com/user-attachments/assets/4adecadc-377b-4870-b55b-d49f905708d7" />
+
+operating point (1.10005,0.00061098)
 
 
 ### Transient Anlysis:
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/c9c9ebcc-9a57-4311-881d-dea9d4979ef8" />
 
+Voltage gain= vout/vin=888.2/112.3=7.909
+Gain in dB=20*log(7.909)=17.962
+
 
 ### AC Analysis:
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/a3a248ea-bdc2-4670-b8f0-25a3733b0184" />
 
-
+gain =3.445
+gain in db = 20log(3.445)=10.743
 
 ## INFERENCE:
 
 In this experiment, we have seen the behaviour and working principles of a differential amplifier by using three different configurations thet is with resistor , current source , and an NMOS .
 All the implements work on different ways that results into the cahnge in Voltage gain and stabillity of a mosfet.
-
-
+DC Analysis: All three circuits have nearly identical operating points (around 1.1V, 0.611mA), indicating that the NMOSFETs are biased similarly, ensuring they operate in the saturation region for amplification.
+Transient Analysis :Circuit 1 has the lowest gain, which means it cannot effectively provide amplification. Circuit 2 has moderate gain, but the huge difference between AC values and transient indicates very strong frequency-dependent... Circuit 3 has the highest gain; hence, it is the best amplifier of the three.
+AC analysis: The first circuit is found to have the lowest gain, confirming it to be a poor amplifier. A large reduction in gain, compared with the transient analysis, is seen in circuit two. this indicates frequency-dependent losses. Circuit three exhibits a consistently higher gain, attributable to a suitable design that involves minimal frequency-dependent degradation.
+As the drain resistance increases, the gain generally increases because a higher drain resistance allows more voltage to develop across it for a given current, leading to a stronger output signal
 
 
 
