@@ -45,6 +45,7 @@ Operating point of NMOSFETS = (1.1 V, 0.611mA)
 
 Voltage Gain of this circuit is given by= Vout/Vin
 Av=VO/VI=0.145/0.1=1.45
+
 Higher The resistor value reduces gain but increases bandwidth and more the  transient response.
 
 ## AC Analysis
@@ -57,6 +58,8 @@ Gain =20*log(Av)
 
 ### 2)Circuit 2 (Common Source terminal is connected to current source)
 Same  as the ciruit in the resistor circuit we need to replace resistor by current source
+<img width="706" alt="image" src="https://github.com/user-attachments/assets/b33e5ab7-68c4-4ef6-af0e-bc95e50b56c3" />
+
 ### DC Analysis
 <img width="956" alt="dc_cs" src="https://github.com/user-attachments/assets/34f9fe42-306b-42fd-ade6-5687c2ff94c6" />
 
