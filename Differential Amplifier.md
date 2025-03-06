@@ -1,21 +1,20 @@
 # Experiment-3
 ## AIM :
-To Design and analyze the mos amplifier circuit for the given specification 
+To Design and analyze the MOS Differential amplifier circuit for the given specification 
+Vdd=1.8v , P<=2.2mW , Vicm=0.95v , Vocm=1.1v,Vp=0.4v
+## Components  Required
+N channel MOSFET(nmos4),Resistors-1.145kohm(2) ,327.8kohm, Power supply , Connecting wires.
 ### Theory 
 #### Differential Amplifier
-The differential-pair or differential-amplifier configuration is the most widely used building block in analog integrated-circuit design.
-It consist of two transistors M1 and M2, whose sources are joined together.
-If two transistor are connected to the different voltage input then there current across M1 and M2 are different due to gate voltage.If in case the voltage supply at gate terminal is same then the current through the M1 and M2 are same (Im1=Im2).This configuration is called "Common Mode input voltage differential Amplifier".WHatever may be the load resistor, the MOSFET M1 and M2 should not go to the Triode region. It should be verified that MOSFET should be in Saturation Region 
+A differential amplifier is an electronic circuit that amplifies the difference between two input voltages while rejecting any common signals. It is a fundamental part of many analog circuits, particularly operational amplifiers and instrumentation amplifiers.
+
 ![418371927-bd20bd4e-aab5-4fa4-825d-394bbb6e2b30](https://github.com/user-attachments/assets/ad572fd3-c9f0-41f9-aba5-d2134b910c2b)
 
-This Expereiment is Based on Common Mode Input voltage Differential Amplifier.
+This Expereiment is Based on Common Mode Input voltage Differential Amplifier.that is  the difference between two input signals (V₁ and V₂) while rejecting common signals (noise).
 
 This Experiement is conducted in 3 stages.Where common source terminal is connected with
-
 1.Resistor
-
 2.Current source
-
 3.MOSFET
 
 For all this circuit we need find out the AC analysis ,Transient analysis And Frequency Response.
@@ -25,7 +24,7 @@ vdd=1.8v
 vicm=0.95v
 vocm=1.1v
 vp=0.4v
-Finially by solving we get
+Finally by solving we get
 
 Iss=P/VDD=2.2mW/1.8V=1mA
 Id1=Id2=Iss/2=0.611mA
@@ -37,13 +36,9 @@ Using these  data we can design the circuit for the given power rating
  another terminal is connected to ground this is called source degenration resistor.
 <img width="758" alt="CIR_RESISTOR" src="https://github.com/user-attachments/assets/c8a50c53-a763-4cc8-aeaf-703d6f834b7b" />
 
-The resistor applied at the common source terminal leads to change in the voltage gain ,input impedence in the circuit and 
-the lineraity.So the linearity increases and the impedence.
-As this is closed loop amplifier this leads to causes a feedbakback amplifier for all elements connecting to the common 
-source terminal.
 ### DC analysis
 <img width="959" alt="dc" src="https://github.com/user-attachments/assets/2fc4281b-b9e5-4a21-9f1a-a993ad5f5157" />
-
+Operating point of NMOSFETS = (1.1 V, 0.611mA)
 ### Transient Analysis:
 
 <img width="955" alt="trancient" src="https://github.com/user-attachments/assets/0372f31a-c5ed-43f6-9469-e181adf5e219" />
@@ -55,8 +50,10 @@ Higher The resistor value reduces gain but increases bandwidth and more the  tra
 ## AC Analysis
 <img width="956" alt="ac" src="https://github.com/user-attachments/assets/797de86f-f8c0-4ade-b66b-4481fc94ba7a" />
 
-
+Av=1.203 
 Gain =20*log(Av)
+  =20 log(1.203)
+    =1.605
 
 ### 2)Circuit 2 (Common Source terminal is connected to current source)
 Same  as the ciruit in the resistor circuit we need to replace resistor by current source
