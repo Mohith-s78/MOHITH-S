@@ -6,7 +6,8 @@ To Design and analyze the mos amplifier circuit for the given specification
 The differential-pair or differential-amplifier configuration is the most widely used building block in analog integrated-circuit design.
 It consist of two transistors M1 and M2, whose sources are joined together.
 If two transistor are connected to the different voltage input then there current across M1 and M2 are different due to gate voltage.If in case the voltage supply at gate terminal is same then the current through the M1 and M2 are same (Im1=Im2).This configuration is called "Common Mode input voltage differential Amplifier".WHatever may be the load resistor, the MOSFET M1 and M2 should not go to the Triode region. It should be verified that MOSFET should be in Saturation Region 
-!image[https://github.com/Mohith-s78/MOHITH-S/blob/4329d33e100d371479d1140794f655a55945704d/418371927-bd20bd4e-aab5-4fa4-825d-394bbb6e2b30.png]
+![418371927-bd20bd4e-aab5-4fa4-825d-394bbb6e2b30](https://github.com/user-attachments/assets/ad572fd3-c9f0-41f9-aba5-d2134b910c2b)
+
 This Expereiment is Based on Common Mode Input voltage Differential Amplifier.
 
 This Experiement is conducted in 3 stages.Where common source terminal is connected with
@@ -34,26 +35,25 @@ Using these  data we can design the circuit for the given power rating
 ## 1)Circuit 1 (Common Source terminal is connected to resistor)
  In this circuit the Load Resistor is coonected to the Drain terminal of MOSFET.Source terminal is connected resistor and 
  another terminal is connected to ground this is called source degenration resistor.
-
-
-
-
+<img width="758" alt="CIR_RESISTOR" src="https://github.com/user-attachments/assets/c8a50c53-a763-4cc8-aeaf-703d6f834b7b" />
 
 The resistor applied at the common source terminal leads to change in the voltage gain ,input impedence in the circuit and 
 the lineraity.So the linearity increases and the impedence.
 As this is closed loop amplifier this leads to causes a feedbakback amplifier for all elements connecting to the common 
 source terminal.
 ### DC analysis
-!image[https://github.com/Mohith-s78/MOHITH-S/blob/876399246fc74733d9204989ec4fbdc2c758750d/dc.png]
+<img width="959" alt="dc" src="https://github.com/user-attachments/assets/2fc4281b-b9e5-4a21-9f1a-a993ad5f5157" />
 
 ### Transient Analysis:
 
+<img width="955" alt="trancient" src="https://github.com/user-attachments/assets/0372f31a-c5ed-43f6-9469-e181adf5e219" />
 
 Voltage Gain of this circuit is given by= Vout/Vin
 Av=VO/VI=0.145/0.1=1.45
 Higher The resistor value reduces gain but increases bandwidth and more the  transient response.
 
 ## AC Analysis
+<img width="956" alt="ac" src="https://github.com/user-attachments/assets/797de86f-f8c0-4ade-b66b-4481fc94ba7a" />
 
 
 Gain =20*log(Av)
